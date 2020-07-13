@@ -39,7 +39,7 @@ from singly_linked_list import LinkedList
 class Queue:
     def __init__(self):
         self.size = 0
-        self.storage = LinkedList
+        self.storage = LinkedList()
     
     def __len__(self):
         return self.size
